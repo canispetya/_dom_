@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actividad DOM – Remake Visual</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <header class="main-header">
+      <h1>🧠 Actividad DOM</h1>
+      <p>Cuatro mini-ejercicios: <strong>Repetir</strong>, <strong>Aplicar color</strong>, <strong>Calcular</strong> e <strong>Invertir</strong>.</p>
+      <p class="hint">Abre la consola (F12) para ver logs y depurar.</p>
+    </header>
+
+    <section class="cards-grid">
+      <!-- 1) REPETIR -->
+      <article class="card">
+        <h2>1. REPETIR</h2>
+        <div class="form-grid">
+          <label>
+            Palabra
+            <input id="txtPalabra" type="text" placeholder="Ej: Hola" />
+          </label>
+          <label>
+            Veces
+            <input id="numVeces" type="number" min="1" max="100" value="3" />
+          </label>
+          <button id="btnRepetir">Repetir</button>
+        </div>
+        <div class="output" id="outRepetir">Resultados aparecerán aquí...</div>
+      </article>
+
+      <!-- 2) APLICAR -->
+      <article class="card">
+        <h2>2. APLICAR COLOR</h2>
+        <div class="form-grid">
+          <label>
+            Color
+            <input id="colorPicker" type="color" value="#00ff00" />
+          </label>
+          <button id="btnAplicar">Aplicar</button>
+        </div>
+        <p id="lorem" class="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat hic
+          numquam voluptates voluptate quasi enim optio quidem adipisci beatae
+          doloribus.
+        </p>
+      </article>
+
+      <!-- 3) CALCULAR -->
+      <article class="card">
+        <h2>3. CALCULAR</h2>
+        <div class="form-grid">
+          <label>
+            Número A
+            <input id="numA" type="number" step="any" placeholder="Ej: 5" />
+          </label>
+          <label>
+            Número B
+            <input id="numB" type="number" step="any" placeholder="Ej: 10" />
+          </label>
+          <button id="btnCalcular">Calcular</button>
+        </div>
+        <pre class="output pre" id="outCalcular">Resultados...</pre>
+      </article>
+
+      <!-- 4) INVERTIR -->
+      <article class="card">
+        <h2>4. INVERTIR</h2>
+        <div class="form-grid">
+          <label>
+            Texto
+            <input id="txtInvertir" type="text" placeholder="Ej: Hola mundo" />
+          </label>
+          <button id="btnInvertir">Invertir</button>
+        </div>
+        <div class="output" id="outInvertir">Resultado invertido...</div>
+      </article>
+    </section>
+  </main>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
