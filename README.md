@@ -18,15 +18,15 @@ Pequeña aplicación web diseñada para practicar **manipulación del DOM**, eve
 3. Observa la salida en el área designada y revisa la consola (F12 → Console)
    para ver los registros de depuración.
 
-> ��� La interfaz es responsiva y se ajusta a dispositivos móviles gracias a CSS Grid.
+> 💡 La interfaz es responsiva y se ajusta a dispositivos móviles gracias a CSS Grid.
 
-## ��� Consejos y snippets rápidos
+## 🧠 Consejos y snippets rápidos
 - Obtener elementos: `const el = document.querySelector('#miId');`
 - Detectar clics: `btn.addEventListener('click', () => { /* ... */ });`
 - Cambiar estilo: `el.style.backgroundColor = '#ff0';`
 - Invertir texto: `const r = texto.split('').reverse().join('');`
 
-## ��� Estructura de archivos
+## 📁 Estructura de archivos
 - `index.html` – markup semántico con secciones (`<article>`) para cada ejercicio
 - `assets/css/styles.css` – estilos modernos, tema claro y componentes reutilizables
 - `assets/js/app.js` – toda la lógica JavaScript. No requiere cambios tras el
